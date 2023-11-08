@@ -40,7 +40,7 @@ Architecture:
   algorithm: CRNN
   Transform:
   Backbone:
-    name: MobileNetV3
+    name: MobileNetV1Enhance
     scale: 0.5
   Neck:
     name: SequenceEncoder
